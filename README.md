@@ -1,16 +1,24 @@
-# React + Vite
+# Card Game (React.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive **Memory Card Game** built with **React JS**. This project focuses on mastering the core fundamentals of React, including component architecture, state management, and conditional rendering.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* **Interactive Gameplay:** Users can flip cards to find matching pairs of emojis.
+* **Move & Score Tracking:** Real-time stats that track how many moves you've made and your current score.
+* **Match Animations:** Custom CSS transitions for flipping cards and highlighting successful matches.
+* **Game Reset:** A "New Game" button to shuffle cards and start over.
+* **Responsive UI:** A clean, centered layout designed with a dark aesthetic.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React JS** (Vite)
+* **CSS3** (Transitions, Opacity-based flipping, and Grid layout)
+* **Hooks:** * `useState`: To manage game state (cards, flipped state, matches, moves).
+    * `useEffect`: For handling match logic and game initialization.
+
+---
